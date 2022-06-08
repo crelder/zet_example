@@ -1,0 +1,13 @@
+Zettelkasten, Finding thoughs
+24.06.2022 
+220529z
+ 
+To solve the problem 1, to find a thought you can 
+
+1. just search in the folder `zettel/` in the filename for a topic e.g. `Zettelkasten` and it will give you all the zettel with this keyword.
+
+2. You could also find it via the context, e.g. I talked to xy, by search in the filename for `Bob Ross`.
+
+3. You remember it was in this book, so you can search for the bibkey `kernighan2022` (if you just remember the title, search in your literature.bib for that title). `literature.bib` contains the list of literature references. This file is not only beneficial for scientific writing.
+
+4. Follow the thoughts in a chain of thoughts if you have a general idea what the thought is about, e.g. "it was about software Engineering". If you have an index entry Software Engineering, you can follow the line of thought there.

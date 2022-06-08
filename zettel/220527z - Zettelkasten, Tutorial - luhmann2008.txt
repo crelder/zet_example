@@ -1,0 +1,19 @@
+Zettelkasten, Tutorial
+27.5.22, luhmann2008
+
+You have now a small example zettelkasten. It has a simple structure. A folder (e.g. `zettelkasten`) holds everything you need for your personal knowledge management. It has three elements:
+
+* a folder `zettel/` with zettel (= images or text files with the content of your thoughts - everything were you had *some considerable amount of own thought involved*, the result of thinking while reading a book, talking/arguing to someone about a topic, etc., see luhmann2008)
+* a `literature.bib` with information on literature sources
+* an `index.txt` file (contains entry points into lines of thought about a particular topic)
+* a folder with own works (these are the results of combining thoughts - during the process of writing a final work, also knowledge gets created)
+
+This solves three problems:
+
+1. You want to find a thought that you know to exist in your knowledge management system
+2. You want to find relevant thoughts around a particular topic that you don't know to exist in your knowledge
+   management system
+3. You want a tool that supports in developing lines of thoughts and train your ability to think in a structured manner
+
+Now look at the zettel 1222222 in your folder zettelkasten/zettel.
+

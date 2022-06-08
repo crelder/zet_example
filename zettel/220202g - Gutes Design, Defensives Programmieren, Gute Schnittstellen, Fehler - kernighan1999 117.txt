@@ -1,0 +1,12 @@
+Good Design, Defensive Programming, Good Interface, Error
+2.2.22
+kernighan1999 117, 220323s
+
+Techniques to prevent errors (Page 117):
+1. Good design
+2. Good Style
+3. Tests, that check boundary conditions (see also hexagonal architecture, unit and integration testing)
+4. Assertions and checking plausibility 
+5. Defensive programming
+6. Well designed interfaces (see Test Driven Development)
+7. Few to no global data / variables

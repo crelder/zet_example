@@ -1,0 +1,16 @@
+Zettelkasten, Zettel, Struktur
+29.5.2022
+
+Every zettel filename contains all metainformation.  
+E.g.: `170211a - Algorithm, Efficiency - GopherCon, sedgewick2011 - 180204d.txt`
+
+The filename consists of four parts, which are always in the same order. Parts are separated via a dash ` - `:
+
+1. The first part, the id `170211a` (= date).
+2. The second part, `Algorithm, Efficiency`, contains keywords.
+3. The third part, `GopherCon, sedgewick2011`, contains context `GopherCon` and literature sources `sedgewick2011`.
+4. The fourth part, `180204d`, contains one or more "folgezettel". These are links to other zettel. These links form a
+   tree (not a network).
+
+Only the first part is mandatory. The following three parts are optional.
+

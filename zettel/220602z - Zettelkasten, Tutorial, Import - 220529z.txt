@@ -1,0 +1,20 @@
+Zettelkasten, Tutorial, Import
+2.6.2022
+220529z
+
+Now you wrote some new zettel. If you wrote them as text, then you can use `zet import PATH` to import all zettel as textfiles within a folder.
+
+Look into `zettelkasten/zettel/new`. Here you see two textfiles with a random name (the name doesn't matter, since it will get overwritten).
+
+Now within folder `zettelkasten` in your shell, type `zet import new`.
+
+You now have to new zettel in your zettelkasten:
+
+* xxxxxx
+* sdfdfsf
+
+The command takes the header of the text zettel and generates the correct filename from it.
+
+When you have zettel on paper, you have to extract the filename and write it manually.
+
+Use your folder zettelkasten/VIEWS/zettelkasten to look at the next zettel in this line of thought (the tutorial) - it is 220611z.
