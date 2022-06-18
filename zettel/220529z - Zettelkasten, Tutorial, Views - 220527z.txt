@@ -1,49 +1,11 @@
 Zettelkasten, Tutorial, Views 
 29.05.2022 
-220527z 
- 
-When writing this zettel I thought about the zettel 220527z, which is the predecessor of this zettel. Or you also can say, that this the "Folgezettel" (followup zettel) of the previous one. 
- 
-The Folgezettel is the most powerful concept of the zettelkasten, but reveals its power only when you have worked with the zettelkasten for some time (it adresses the problem number 3). 
- 
-You can do that by using one of three core functionalities of `zet`. 
-Navigate into your zettelkasten folder in the shell and can run the following zet commands: 
- 
-```shell 
-Usage: zet <command> [<args>] 
- 
-These are common zet commands: 
-  import <path> Copy text files in <path> to folder 'IMPORT/' 
-  validate      Check your zettelkasten's consistency 
-  views         Generate folder 'VIEWS/', which contains access points into your zettelkasten 
-``` 
+220527z
 
-zet import: in the folder `new/` are two new zettel. Using the header, the import command will copy the zettel into
-   the zettel/ directory and give them a correct filename. Check if everything is okay, then delete the zettel in 'zettel/' dir
+Note that this filename has an id at the end ("220527z"). This id is a link and means that when you wrote this zettel, you also thought of that previous zettel 220527z.
 
-zet views: you can now see a chain of thoughts about the topics defined in the `index.txt`. Also you can see related
-   zettel, that are not yet linked.
+Of course, it would be convenient not to manually jump around in the folder `zettel/` between linked zettel. Type `zet views` in your console within your folder `zettelkasten/`. You now have an automatically generated folder `VIEWS/`, that contains an index folder. Here you can see an ordered line of thought through your zettel.
 
-zet validate: you will see, that the duplicated ids got detected. Also a dead link got detected.
+`zet` generates the Index using the `index.txt`. Here you define thematic entry points in your zettelkasten. Look at the `index.txt`. Here you see an entry `zettelkasten: 220527z`. This entry means that to enter your line of thoughts about the topic "zettelkasten", you should start with the zettel with id 220527z.
 
-
- 
-Type `zet views`. You now have a automatically generated folder, that contains an index folder. Here you can see the connect lines of thought through your zettel (you can easily navigate to the Folgezettel of this one).  
- 
-Index is generated using the index.txt. Here you define thematic entry points in your zettelkasten. Look at the `index.txt`, here you see an entry `zettelkasten: 220527z`. This means, in order to enter your thoughts about the topic "zettelkasten", you should start with the zettel with id 220527z. You write the entries in the index.txt.
-
-`index.txt` contains thematic entry points into your zettelkasten, for example:
-
-```text
-Complexity: 190119e
-Interfaces: 22
- 
-The other csv files give you an overview about all the keywords, contexts and literature entries including their number of occurences in zettel. 
- 
-Now you can look at the pedecessor (220527z) manually. But wouldn't it be nice, to have your lines of thought layed out in an easier manner? 
-
-
-
-
-
-
+Now go to the next zettel in this line of thought about the topic "zettelkasten" by navigating into `zettelkasten/VIEWS/index/zettelkasten`.

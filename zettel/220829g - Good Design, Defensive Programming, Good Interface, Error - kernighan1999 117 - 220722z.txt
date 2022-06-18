@@ -1,0 +1,17 @@
+Good Design, Defensive Programming, Good Interface, Error
+29.8.22
+kernighan1999 117, 220722z
+
+Techniques to prevent errors (page 117):
+1. Good design
+2. Good style
+3. Tests that check boundary conditions (see also hexagonal architecture, unit, and integration testing)
+4. Assertions and checking plausibility
+5. Defensive programming
+6. Well-designed interfaces (see Test Driven Development)
+7. Few to no global data / variables
+
+====
+Above is a real zettel out of my zettelkasten. You can define literature resources in the filename via "AuthorYear" and optionally add a page after a space, see kernighan1999 117. Adding this information is not only helpful for working with references with scientific standards.
+
+This zettel doesn't have a follow-up zettel (Folgezettel) yet. Go back to the line of thoughts of `zettelkasten/VIEWS/index/zettelkasten`.

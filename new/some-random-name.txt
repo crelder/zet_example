@@ -1,0 +1,12 @@
+Import, Automatisation
+2.6.22
+220601e, sedgewick2011 17
+
+As you can see, after using `zet import new`, `zet` pulled this text file into your zettel folder and named the file correctly regarding the `zet` filename standard to `220602i - Import, Automatisation - sedgewick2011 17 - 220601e.txt`.
+
+This zettel could contain a thought now e.g., about algorithms and their complexity; see sedgewick2011 page 17.
+
+It has a link to a non-existing zettel `220601e`, which will be used in this tutorial when we come to the command `zet validate`.
+
+
+

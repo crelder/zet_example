@@ -1,0 +1,13 @@
+Zettelkasten, Tutorial
+27.5.22
+
+You now have an example zettelkasten, see `zettelkasten/`.
+
+It has a simple structure: this folder contains everything you need for your personal knowledge management system. It has four elements:
+
+* a folder `zettel/` with "zettel". A "zettel" is an image or text file with the content of your thoughts, meaning something where you had *some considerable amount of own thought involved*: the result of thinking while reading a book, talking/arguing to someone about a topic, etc.
+* a `literature.bib` with information on literature sources (e.g., books, papers, etc.).
+* an `index.txt` file. This file contains entry points into lines of thought about a particular topic.
+* a folder with own works. This folder is like the folder `zettel/` but contains final works like own thesis chapter, own book chapters, own presentations, etc.
+
+To learn how to visualize lines of thought, open the zettel with id 220529s in your folder `zettelkasten/zettel`.

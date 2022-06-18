@@ -1,0 +1,17 @@
+Zettelkasten, Tutorial, Import
+2.6.2022
+220529z
+
+Suppose you wrote a new zettel. If you wrote it as text, you could use `zet import [PATH]` to import all zettel as textfiles within the folder PATH. This command will automatically create the filename out of the header.
+
+The header in a text file contains in the first line the keywords. In the second line, the date of writing the zettel. In the third line, which is optional, you can add context, literature resources, and predecessor zettel ids.
+
+Look into `zettelkasten/zettel/new`. Here you see two textfiles with a random name (the name doesn't matter since it will get overwritten). Now within folder `zettelkasten` in your shell, type `zet import new` (`new` is the folder where new zettel lies in this example, but it could be any folder on your filesystem).
+
+You now have a new zettel in your zettelkasten, which just got imported:
+* `220602i - Import, Automatisation - sedgewick2011 17 - 220602e.txt`
+
+When you have a scanned paper zettel, you have to extract the filename and write it by hand.
+
+Go to the next zettel in this line of thought via `zettelkasten/VIEWS/index/zettelkasten`,
+

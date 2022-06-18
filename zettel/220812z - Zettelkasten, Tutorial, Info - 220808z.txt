@@ -1,0 +1,14 @@
+Zettelkasten, Tutorial, Validation
+8.8.22
+220727z
+
+You may notice that there are more folders in the automatically generated folder `VIEWS`. In folder `info`, you have some statistics as CSV files about your keywords, literature, and context, including the number of occurrences.
+
+Folder `unlinked` will show you the most ten recent zettel that don't have a predecessor defined. This information helps you to turn "loose" zettel into connected zettel.
+
+This is the end of the tutorial. To read more about it, see FAQ in `/docs`. I am happy to receive feedback and questions (even if they are dead simple) to skjkj@mail.com.
+
+
+
+
+

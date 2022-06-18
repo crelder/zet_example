@@ -1,0 +1,20 @@
+Zettelkasten, Zettel, Struktur
+1.6.2022
+220529z, Bob Ross
+
+Every zettel filename contains all meta information, which is the basis for finding a zettel you remember.
+E.g.: `170211a - Algorithm, Efficiency - GopherCon, sedgewick2011 - 180204d.txt`
+
+The most powerful concept of the zettelkasten is the INDEX, but it will only work after a critical mass of zettel. Finding thoughts delivers already value. So when thinking, "What was this thought about the topic 'Zettelkasten'" you can use your file explorer to filter the zettel by filename and the keyword 'Zettelkasten'. The same goes for context "I had this thought when talking to 'Bob Ross'" or literature "What was this thought about from the book of Kernighan?".
+
+The filename consists of four parts, always in the same order. Parts are separated via a dash ` - `:
+
+1. The first part, the id `170211a` (= date).
+2. The second part, `Algorithm, Efficiency`, contains at least one keyword.
+3. The third part, `GopherCon, sedgewick2011`, contains context `GopherCon` and literature sources `sedgewick2011`.
+4. The fourth part, `180204d`, contains a predecessor to this thought, it is a link.
+
+Only the first part is mandatory; the other parts are optional.
+
+Writing this filename is tedious. To see how `zet` can facilitate this, go to the next thought in this line of thought via `zettelkasten/VIEWS/index/zettelkasten`, 220602z.
+

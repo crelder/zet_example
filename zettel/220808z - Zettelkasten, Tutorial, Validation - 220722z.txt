@@ -1,0 +1,13 @@
+Zettelkasten, Tutorial, Validation
+8.8.22
+220727z
+
+The last subcommand is `zet validation`. It will show you inconsistencies in your zettelkasten like:
+* Double ids (ids should be unique)
+* Dead links to predecessor zettel (links should always point to an existing zettel/id)
+* Literature entry is not present in literature.bib
+* Not able to parse a filename
+
+Try `zet validation` in your console within the zettelkasten directory. You see that there is a missing link. Instead of `220601e`, you probably meant `220601z`. Change it and run `zet validate` again. The inconsistency is now gone.
+
+Press `zet help` to see all available commands.
